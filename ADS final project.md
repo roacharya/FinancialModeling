@@ -13,7 +13,7 @@ Some of the attributes of an option are:
 - **$S_0$ (float)**: Current price of the underlying asset.
 - **$K$**: Strike price of the option.
 - **$T$**: Time to expiration of the option, measured in years.
-- **$(\sigma)$**: Volatility of the underlying asset.
+- **$\sigma$**: Volatility of the underlying asset.
 - **$q$**: Dividend yield of the underlying asset.
 
 The two main types of options are calls and puts. Furthermore, there are several flavors of options. The ones we will be considering in the project are:
