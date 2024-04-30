@@ -69,7 +69,7 @@ price = b.get_price()
 	
 This will produce an output such as:
 
-![](b1.png)
+![](b1.PNG)
 
 Note that the output includes the stock and option values of the nodes in the tree, including the probabilities of up and down moves. This makes it easy to understand how the option values are calculated since you can see the value at every stage.
 
@@ -81,7 +81,7 @@ b = BinomialModel(option = o, risk_free_rate = 0.1, num_time_steps=10)
 b.get_price()
 ```
 
-![](b2.png)
+![](b2.PNG)
 
 For an American option, the model nicely indicates at which nodes it is optimal to early exercise by coloring them green.
 
@@ -116,7 +116,7 @@ h.get_price()
 ```
 which produces the output
 
-![](h1.png)
+![](h1.PNG)
 
 The output includes 3 graphs:
 - **Vol paths**: Firstly, the model outputs a graph of some of the volatility paths produced in the simulation. These volatility paths are producing using the mean-reverting square root stochastic process described earlier.
