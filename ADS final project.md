@@ -123,6 +123,8 @@ In addition to the option's price, the output includes 3 graphs:
 - **Stock price paths**: Next, the model outputs a graph of some of the stock price paths produced in the simulation. These stock price paths are producing using the Geometric Brownian motion process described earlier, and allow for stochastic volatility.
 - **Option prices distribution**: Lastly, the model outputs a graph of the option prices distribution, which allows for interpretability of the MC simulation and shows how the average price was determined.
 
+The output of the model shows that the volatility paths are very increasing, which makes sense given that volatility paths are produced via mean reversion, and a high value of $\theta$ would thus lead to higher volatilities. Our model correctly identifies that the option should be priced high, as increased volatility makes an option more valuable since there is more potential upside. This is a clear example of how the volatility paths graph greatly increases the interpretability of the final price.
+
 ## Digital Options Pricing
 **Digital Option Pricer**: Implemented a Digital Option Pricer using Monte Carlo simulation, providing a method for pricing digital options and visualizing their terminal prices.
 
