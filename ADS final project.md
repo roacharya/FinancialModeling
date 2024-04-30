@@ -11,10 +11,10 @@ An option is a financial derivative that gives the buyer the right, but not the 
 ## Option attributes
 Some of the attributes of an option are:
 - **$S_0$ (float)**: Current price of the underlying asset.
-- **$K$ (float)**: Strike price of the option.
-- **$R$ (float)**: Time to expiration of the option, measured in years.
-- **vol $(\sigma)$ (float)**: Volatility of the underlying asset.
-- **div (float)**: Dividend yield of the underlying asset.
+- **$K$**: Strike price of the option.
+- **$T$**: Time to expiration of the option, measured in years.
+- **$(\sigma)$**: Volatility of the underlying asset.
+- **q**: Dividend yield of the underlying asset.
 
 The two main types of options are calls (right but not obligation to buy the stock) and puts (same thing for selling the stock). Furthermore, there are several flavors of options. The ones we will be considering in the project are:
 - **European options**: A European option is a type of financial derivative that can only be exercised at the end of its life, at its expiration.
