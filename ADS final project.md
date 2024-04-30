@@ -156,7 +156,7 @@ p.get_price()
 ```
 which produces the output
 
-![](d1.png)
+![](d1.PNG)
 
 In addition to the option's price, the output includes outputs 2 graphs:
 - **Terminal stock prices**: The model outputs a graph that shows the distribution of terminal stock prices and which are in the money and would be exercised.
