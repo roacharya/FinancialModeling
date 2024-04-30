@@ -71,7 +71,7 @@ This will produce an output such as:
 
 ![](b1.PNG)
 
-Note that the output includes the stock and option values of the nodes in the tree, including the probabilities of up and down moves. This makes it easy to understand how the option values are calculated since you can see the value at every stage.
+Note that the output, in addition to the option's price, includes the stock and option values of the nodes in the tree, including the probabilities of up and down moves. This makes it easy to understand how the option values are calculated since you can see the value at every stage.
 
 Here is an example of using the Binomial model to price an American call option on a dividend paying stock:
 
@@ -118,7 +118,7 @@ which produces the output
 
 ![](h1.PNG)
 
-The output includes 3 graphs:
+In addition to the option's price, the output includes 3 graphs:
 - **Vol paths**: Firstly, the model outputs a graph of some of the volatility paths produced in the simulation. These volatility paths are producing using the mean-reverting square root stochastic process described earlier.
 - **Stock price paths**: Next, the model outputs a graph of some of the stock price paths produced in the simulation. These stock price paths are producing using the Geometric Brownian motion process described earlier, and allow for stochastic volatility.
 - **Option prices distribution**: Lastly, the model outputs a graph of the option prices distribution, which allows for interpretability of the MC simulation and shows how the average price was determined.
@@ -156,7 +156,7 @@ which produces the output
 
 ![](d1.png)
 
-The output includes outputs 2 graphs:
+In addition to the option's price, the output includes outputs 2 graphs:
 - **Terminal stock prices**: The model outputs a graph that shows the distribution of terminal stock prices and which are in the money and would be exercised.
 - **Option prices distribution**: The model also outputs a graph of the option prices distribution, which allows for interpretability of the MC simulation and shows how the average price was determined.
 
@@ -200,7 +200,7 @@ which produces the output
 
 ![](ba1.PNG)
 
-The model outputs 2 graphs:
+In addition to the option's price, the model outputs 2 graphs:
 - **Stock price paths**: The model outputs a graph that shows the paths of the stock prices, which follow a Geometric Brownian Motion random process. This graph clearly shows the barrier and makes it easy to see examples of stock price paths that crossed the barrier and did not cross the barrier.
 - **Option prices distribution**: The model also outputs a graph of the option prices distribution, which allows for interpretability of the MC simulation and shows how the average price was determined.
 
