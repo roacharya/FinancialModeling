@@ -40,7 +40,7 @@ The two main types of options are calls and puts. Furthermore, there are several
 
 ### Explainability and Decision Support
 - **Enhancing Interpretability**: Unlike traditional models that rely on complex mathematical formulas, this project emphasizes explainability. Each component of the model is designed to provide clear insights into how pricing decisions are made, which is crucial for users who need to understand the rationale behind model outputs.
-- **Explanatory Visualizations**: Through detailed visualizations and step-by-step breakdowns of the pricing processes, the project makes advanced financial concepts accessible and comprehensible to users without a deep mathematical background (though it still requires a solid finance background).
+- **Explanatory Visualizations**: Through detailed visualizations and step-by-step breakdowns of the pricing processes, the project makes advanced financial concepts accessible and comprehensible to users without a deep mathematical background (though it still requires some finance background, to be clear).
 
 
 ## Project Capabilities
