@@ -10,7 +10,7 @@ An option is a financial derivative that gives the buyer the right, but not the 
 
 ## Option attributes
 Some of the attributes of an option are:
-- **$S_0$ (float)**: Current price of the underlying asset.
+- **$S_0$**: Current price of the underlying asset.
 - **$K$**: Strike price of the option.
 - **$T$**: Time to expiration of the option, measured in years.
 - **$\sigma$**: Volatility of the underlying asset.
